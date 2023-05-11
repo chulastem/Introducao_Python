@@ -17,14 +17,8 @@ media = (a+b+c)/3
 print("A média aritmetica desses 3 valores é " + str(media))
 
 """Faça um programa que receba o ano de nascimento de uma pessoa, o ano atual e imprima:
-
-
 1.   A idade da pessoa no ano atual
 2.   A idade que a pessoa terá em 2050
-
-
-
-
 """
 
 print("Digite o Ano atual:")
@@ -65,10 +59,6 @@ print(int(a),"x 10 = ",(int(a)*10))
 2. O número digitado ao cubo
 3. A raiz quadrada do número digitado
 4. A raiz cúbica do número digitado.
-
-
-
-
 """
 
 a = int(input("Digite um número inteiro positivo:"))
@@ -93,9 +83,6 @@ print("Metade", a/2)
 
 """Faça um programa que, tendo como dados de entrada a altura (H - em metros) de um homem, calcule e apresente seu peso ideal utilizando a seguinte fórmula: 
 * Peso ideal (P) = (72,7 * H) – 58. 
-
-
-
 """
 
 h = float(input("Digite a sua altura"))
@@ -115,8 +102,6 @@ print("Valor de a:", a)
 print("Valor de b:", b)
 
 """Considerando uma eleição de apenas dois candidatos, faça um programa que leia o número total de eleitores, o número de votos do primeiro candidato e o número de votos do segundo candidato. Em seguida, o programa deverá apresentar o percentual de votos de cada um dos candidatos e o percentual de votos nulos.
-
-
 """
 
 total_eleitores = int(input("Digite o número total de eleitores: "))
