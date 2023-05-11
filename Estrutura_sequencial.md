@@ -29,8 +29,8 @@ idade2050 = 2050-anonasc
 print("A idade no ano atual é:" + str(idade))
 print("A idade em 2050 será:  " + str(idade2050))
 ```
-ça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação)."""
-
+3. faça um programa que solicite ao usuário que informe os coeficientes a, b e c de uma equação de segundo grau, e que imprima as raízes desta equação (considere que os valores informados sempre retornarão raízes reais para a equação).
+```python
 import math
 a = float(input("Digite o coeficiente a:"))
 b = float(input("Digite o coeficiente b:"))
@@ -38,9 +38,9 @@ c = float(input("Digite o coeficiente c:"))
 delta = b**2 - 4*a*c
 x = -b / (2*a)
 print("A equação possui uma raiz real:", x)
-
-"""Leia um número e imprima a tabuada de multiplicar deste número. """
-
+```
+4. Leia um número e imprima a tabuada de multiplicar deste número. 
+```python
 a = int(input("Digite um número inteiro: "))
 print(int(a),"x 01 = ",(int(a)*1))
 print(int(a),"x 02 = ",(int(a)*2))
@@ -52,46 +52,44 @@ print(int(a),"x 07 = ",(int(a)*7))
 print(int(a),"x 08 = ",(int(a)*8))
 print(int(a),"x 09 = ",(int(a)*9))
 print(int(a),"x 10 = ",(int(a)*10))
+```
+5. Receba um número positivo, calcule e mostre:
+* O número digitado ao quadrado
+* O número digitado ao cubo
+* A raiz quadrada do número digitado
+* A raiz cúbica do número digitado.
 
-"""Receba um número positivo, calcule e mostre:
-1. O número digitado ao quadrado
-2. O número digitado ao cubo
-3. A raiz quadrada do número digitado
-4. A raiz cúbica do número digitado.
-"""
-
+```python
 a = int(input("Digite um número inteiro positivo:"))
 print("O numero digitado ao quadrado:", int(a)*int(a))
 print("O numeor digitado ao cubo:", int(a)*int(a)*int(a))
 print("Raiz quadrada do numero digitado:", int(a)/2)
 print("Raiz cubica do numero digitado:", int(a)/3)
-
-"""Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% para o garçom. Faça um programa que leia o valor gasto pelo cliente e informe o valor a ser pago de gorjeta."""
-
+```
+6. Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% para o garçom. Faça um programa que leia o valor gasto pelo cliente e informe o valor a ser pago de gorjeta."""
+```python
 a = float(input("Valor gasto R$:"))
 gorj = a * 0.10
 print("10% do garçom = R$", gorj)
-
-"""Faça um programa que receba um número inteiro e que imprima o antecessor, o sucessor, o dobro e a metade do número informado. """
-
+```
+7. Faça um programa que receba um número inteiro e que imprima o antecessor, o sucessor, o dobro e a metade do número informado. """
+```Python
 a = int(input("Digite um numero inteiro:"))
 print("Antecessor:", a-1)
 print("Sucessor:", a+1)
 print("Dobro:", a*2)
 print("Metade", a/2)
-
-"""Faça um programa que, tendo como dados de entrada a altura (H - em metros) de um homem, calcule e apresente seu peso ideal utilizando a seguinte fórmula: 
+```
+8. Faça um programa que, tendo como dados de entrada a altura (H - em metros) de um homem, calcule e apresente seu peso ideal utilizando a seguinte fórmula: 
 * Peso ideal (P) = (72,7 * H) – 58. 
-"""
-
+```python
 h = float(input("Digite a sua altura"))
 p = (72.7*h)-58
 print("Peso ideal =", p)
-
-"""Faça um programa que leia duas variáveis e troque o conteúdo dessas duas variáveis. Em seguida, imprima o valor dessas variáveis invertido. 
+```
+9. Faça um programa que leia duas variáveis e troque o conteúdo dessas duas variáveis. Em seguida, imprima o valor dessas variáveis invertido. 
 * Exemplo: A = 7, B = 9. Saída: A = 9, B = 7.
-"""
-
+```python
 a = int(input("Digite o valor de a:"))
 b = int(input("Digite o valor de b:"))
 c = b
@@ -99,10 +97,10 @@ b = a
 a = c
 print("Valor de a:", a)
 print("Valor de b:", b)
+```
+10. Considerando uma eleição de apenas dois candidatos, faça um programa que leia o número total de eleitores, o número de votos do primeiro candidato e o número de votos do segundo candidato. Em seguida, o programa deverá apresentar o percentual de votos de cada um dos candidatos e o percentual de votos nulos.
 
-"""Considerando uma eleição de apenas dois candidatos, faça um programa que leia o número total de eleitores, o número de votos do primeiro candidato e o número de votos do segundo candidato. Em seguida, o programa deverá apresentar o percentual de votos de cada um dos candidatos e o percentual de votos nulos.
-"""
-
+```python
 total_eleitores = int(input("Digite o número total de eleitores: "))
 votos_candidato1 = int(input("Digite o número de votos do primeiro candidato: "))
 votos_candidato2 = int(input("Digite o número de votos do segundo candidato: "))
@@ -114,3 +112,4 @@ percentual_nulos = 100 - (percentual_candidato1 + percentual_candidato2)
 print("Percentual de votos do primeiro candidato: {:.2f}%".format(percentual_candidato1))
 print("Percentual de votos do segundo candidato: {:.2f}%".format(percentual_candidato2))
 print("Percentual de votos nulos: {:.2f}%".format(percentual_nulos))
+```
