@@ -21,7 +21,6 @@ elif(a==b):
 """ Faça um programa que receba as duas notas de um aluno, calcule sua média, e que imprima a sua situação: 
 *  => 7 -> Aprovado
 * < 7 -> Reprovado
-
 """
 
 nota1 = int(input("Digite a 1º nota do aluno (0-10):"))
@@ -41,11 +40,6 @@ REPROVADO)
 EXAME) 
 * (>= 7 e <= 10 
 APROVADO) 
-
-
-
-
-
 """
 
 nota1 = int(input("Digite a 1º nota do aluno (0-10):"))
@@ -102,7 +96,6 @@ Sobre Peso
 Obeso
 * IMC de 40 e acima
 Obeso Mórbido
-
 """
 
 print("Caucular IMC")
@@ -132,9 +125,6 @@ ADOLESCENTE
 ADULTO
 * acima de 30 anos
 SENIOR
-
-
-
 """
 
 print("Categoria")
@@ -154,7 +144,6 @@ elif(idade > 30):
 - não eleitor (abaixo de 16 anos); 
 - eleitor obrigatório (entre a faixa de 18 e menor de 65 anos); 
 - eleitor facultativo (de 16 até 18 anos e maior de 65 anos, inclusive)
-
 """
 
 print("Classe Eleitoral")
@@ -224,9 +213,7 @@ else:
 3. – Multiplicar
 4. – Dividir
 5. – Sair
-
 Em seguida, leia a opção escolhida e exiba o resultado de acordo com a opção.
-
 """
 
 a = float(input("Digite o 1º valor:"))
