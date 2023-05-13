@@ -85,17 +85,17 @@ e, a situação do peso é determinada pela tabela abaixo:
 print("Caucular IMC")
 peso = float(input("Digite seu peso em KG:"))
 altura = float(input("Digite sua altura em METROS:"))
-imc = peso/(altura*altura)
-if(imc < 20):
-  print("ABAIXO DO PESO")
-elif(imc >= 20 and imc < 25):
-  print("PESO NORMAL")
-elif(imc >= 25 and imc < 30):
-  print("SOBRE PESO")
-elif(imc >= 30 and imc < 40):
-  print("OBESO")
-elif(imc >= 40):
-  print("OBESO MORBIDO")
+imc = peso / (altura * altura)
+if imc < 20:
+    print("ABAIXO DO PESO")
+elif 20 <= imc < 25:
+    print("PESO NORMAL")
+elif 25 <= imc < 30:
+    print("SOBRE PESO")
+elif 30 <= imc < 40:
+    print("OBESO")
+else:
+    print("OBESO MORBIDO")
 ```
 7. Faça um programa que receba a idade de um nadador e mostre a sua categoria
 
