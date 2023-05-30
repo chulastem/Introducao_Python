@@ -1,7 +1,6 @@
 
 # Estrutura de repetição - FOR  
-Original file is located at https://colab.research.google.com/drive/1WUKJRBF6r6PbblNc6pWAX_0CBum39RnC
-#
+
 1. Faça um programa que faça a leitura de 5 valores, e para cada valor, mostre o seu dobro na tela.
 ```python
 for i in range(0,5):
